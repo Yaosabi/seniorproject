@@ -20,4 +20,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="304dp"
+        android:layout_height="74dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="299dp"
+        android:layout_height="75dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="296dp"
+        android:layout_height="79dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="213dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

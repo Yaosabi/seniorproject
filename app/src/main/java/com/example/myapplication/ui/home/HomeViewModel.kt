@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is where the resources will be"
+        value = "This is where the local events will be"
     }
     val text: LiveData<String> = _text
 }
